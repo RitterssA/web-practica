@@ -1,0 +1,2584 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+.v812_886 {
+  display: flex;
+  width: 1920px;
+  height: 4614px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.footer2 {
+  width: 100%;
+  height: 356px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 4345px;
+  left: 0px;
+  overflow: hidden;
+}
+.fotoprocat {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 20%;
+  font-family: Montserrat;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+  font-weight: 900;
+}
+.twentyfour {
+  background: -webkit-linear-gradient(#8ee902, #4f9c2c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 27%;
+  font-family: Montserrat;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+  font-weight: 999;
+}
+.oplata {
+  width: 240px;
+  height: 48px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 170px;
+  left: 65%;
+  overflow: hidden;
+}
+.visacard {
+  width: 48px;
+  height: 48px;
+  background: url("../images/visa.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+
+}
+.mastercard {
+  width: 48px;
+  height: 48px;
+  background: url("../images/mastercard.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  overflow: hidden;
+}
+.robokassa {
+  width: 116px;
+  height: 14px;
+  background: url("../images/robokassa-1 (3).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+  overflow: hidden;
+
+/*.....ПОДВАЛ.....*/
+}.footer1 {
+  width: 100%;
+  height: 72px;
+  background: rgba(81,86,104,1);
+  opacity: 1;
+  position: absolute;
+  top: 4272px;
+  left: 0px;
+  overflow: hidden;
+}
+.zakaz {
+  width: 161px;
+  height: 20px;
+  background: rgba(81,86,104,1);
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 65%;
+  overflow: hidden;
+  transition: transform 1s;
+}
+.zakaz:hover {
+  transform: scale(1.1);
+}
+.zvonok {
+  width: 131px;
+  color: rgba(142,233,1,1);
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.zakaz2 {
+  width: 20px;
+  height: 20px;
+  background: url("../images/phone-call.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.vvod-container {
+  width: 475px;
+  height: 40px;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 35%;
+  overflow: hidden;
+}
+.vvod {
+  width: 67.3%;
+  height: 40px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.30000001192092896);
+  overflow: hidden;
+  color: rgba(117,117,138,1);
+  font-family: Ubuntu;
+  font-weight: 100;
+  font-size: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+.knopka {
+  width: 33.7%;
+  height: 40px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 66.3%;
+  overflow: hidden;
+}
+.knopka2 {
+  width: 160px;
+  height: 40px;
+  background: rgba(79,156,44,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.podpisatca {
+  width: 160px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.podpisites {
+  position: absolute;
+  color: rgba(142,233,1,1);
+  top: 0px;
+  left: 45px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.akcii {
+  width: 210px;
+  height: 40px;
+  background: rgba(81,86,104,1);
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 20%;
+  overflow: hidden;
+  transition: transform 1s;
+}
+.akcii:hover {
+  transform: scale(1.1);
+}
+.akcii-2 {
+  width: 40px;
+  height: 40px;
+  background: url("../images/icon.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.news-akcii {
+  position: absolute;
+  color: rgba(255,255,255,1);
+  top: 20px;
+  left: 45px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+/*.......КАРТА......*/
+.container-karta {
+  width: 100%;
+  height: 353px;
+  background: url("../images/for map.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3919px;
+  left: 0px;
+  overflow: hidden;
+}
+.blokcommon {
+  width: 255px;
+  height: 140px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 108px;
+  overflow: hidden;
+  transition: transform 1s;
+}
+.blokcommon:hover {
+transform: scale(1.1);
+}
+
+.blokcommon.blok1 {
+  left: 65%;
+}
+
+.blokcommon.blok2 {
+  left: 50%;
+}
+.blokcommon.blok3 {
+  left: 35%;
+}
+.blokcommon.blok4 {
+  left: 20%;
+}
+.text1-1 {
+  color: rgba(96,176,33,1);
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.text1-2 {
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 63px;
+  left: 30px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.text1-3 {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+/*.........НОВОСТИ.......*/
+.container-news {
+  width: 100%;
+  height: 575px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3266px;
+  left: 0px;
+  overflow: hidden;
+}
+.knopka-news {
+  width: 200px;
+  height: 55px;
+  background: url("../images/v812_987.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 506px;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -100px;
+}
+.knopka-cvet {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  opacity: 0.75;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.knopka11 {
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.text-knopca {
+  width: 101px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 17px;
+  left: 49px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.nb-1 {
+  width: 350px;
+  height: 419px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 60%;
+  overflow: hidden;
+  transition: transform 1s;
+}
+.nb-1:hover{
+  transform: scale(1.07);
+}
+.nb11 {
+  width: 350px;
+  height: 170px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(239,239,239,1);
+  overflow: hidden;
+}
+.text-zagolovka1 {
+  width: 300px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 74px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.zagolovok1 {
+  width: 300px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.data1 {
+  width: 300px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 21px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.photo1 {
+  width: 350px;
+  height: 250px;
+  background: url("../images/photo333.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 169px;
+  left: 0px;
+  overflow: hidden;
+}
+.nb-2 {
+  width: 350px;
+  height: 419px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 40%;
+  overflow: hidden;
+transition: transform 1s;
+}
+.nb-2:hover{
+  transform: scale(1.07);
+}
+.nb22 {
+  width: 350px;
+  height: 170px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 249px;
+  left: 0px;
+  border: 1px solid rgba(239,239,239,1);
+  overflow: hidden;
+}
+.text-zagolovka2 {
+  width: 300px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 323px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.zagolovok2 {
+  width: 300px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 295px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.data2 {
+  width: 300px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 270px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.photo2 {
+  width: 350px;
+  height: 250px;
+  background: url("../images/photo22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.nb-3 {
+  width: 350px;
+  height: 419px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 20%;
+  overflow: hidden;
+transition: transform 1s;
+}
+.nb-3:hover{
+  transform: scale(1.07);
+}
+.nb33{
+  width: 350px;
+  height: 170px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(239,239,239,1);
+  overflow: hidden;
+}
+.text-zagolovka3 {
+  width: 300px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 74px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.zagolovok3 {
+  width: 300px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.data3 {
+  width: 300px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 21px;
+  left: 25px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.photo3 {
+  width: 350px;
+  height: 250px;
+  background: url("../images/photo11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 169px;
+  left: 0px;
+  overflow: hidden;
+}
+.zagolovok-bloka {
+  width: 350px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  margin-left: -175px;
+}
+/*......ПРЕДЛОЖЕНИЯ ПРОДАЖИ СВОЕЙ ТЕХНИКИ.......*/
+.container-predlozhenie {
+  width: 100%;
+  height: 574px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 2596px;
+  left: 0px;
+  overflow: hidden;
+}
+.knopka-predlozhenie {
+  width: 300px;
+  height: 55px;
+  opacity: 1;
+  position: absolute;
+  top: 424px;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -150px;
+}
+.predloxhenie-cvet {
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  opacity: 0.75;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.cvet {
+  width: 300px;
+  height: 50px;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.text-predlozhenie {
+  width: 222px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 17px;
+  left: 38px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.blok-viplati {
+  width: 255px;
+  height: 155px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 229px;
+  left: 65%;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  transition: transform 1s
+}
+.blok-viplati:hover {
+  transform: scale(1.1);
+}
+.kartinka-viplati {
+  width: 32px;
+  height: 32px;
+  background: url("../images/view.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 193px;
+  overflow: hidden;
+}
+.text-viplati {
+  width: 195px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.blok-garantii {
+  width: 255px;
+  height: 155px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 229px;
+  left: 50%;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  transition: transform 1s
+}
+.blok-garantii:hover {
+  transform: scale(1.1);
+}
+.kartinka-garantii {
+  width: 32px;
+  height: 32px;
+  background: url("../images/umbrella.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 93px;
+  left: 196px;
+  overflow: hidden;
+}
+.blok-doxod {
+  width: 255px;
+  height: 155px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 229px;
+  left: 35%;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  transition: transform 1s
+}
+.blok-doxod:hover {
+  transform: scale(1.1);
+}
+.kartinka-doxod {
+  width: 32px;
+  height: 32px;
+  background: url("../images/calendar-6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 93px;
+  left: 193px;
+  overflow: hidden;
+}
+.blok-sposob {
+  width: 255px;
+  height: 155px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 229px;
+  left: 20%;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  transition: transform 1s
+}
+.blok-sposob:hover {
+  transform: scale(1.1);
+}
+.kartinka-sposob {
+  width: 32px;
+  height: 32px;
+  background: url("../images/diamond.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 95px;
+  left: 193px;
+  overflow: hidden;
+}
+.text-bloka {
+  width: 195px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.zagolovok4 {
+  width: 470px;
+  height: 96px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 96px;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -235px;
+}
+.text-zagolovka4 {
+  width: 470px;
+  color: rgba(117,117,138,1);
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.zagolovok-predlozhenie {
+  width: 350px;
+  color: url("../images/v812_1068.png");
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+/*......БЛОК ТОВАРОВ......*/
+.container-tovari {
+  width: 60%;
+  height: 730px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1766px;
+  left: 20%;
+  overflow: hidden;
+}
+.cvet-b5 {
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 380px;
+  left: 760px;
+  overflow: hidden;
+}
+.foto-b5 {
+  width: 350px;
+  height: 350px;
+  background: url("../images/5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1072 {
+  width: 217px;
+  height: 84px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 241px;
+  left: 25px;
+  overflow: hidden;
+}
+.cvet-b4 {
+  width: 730px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 380px;
+  left: 0px;
+  overflow: hidden;
+}
+.foto-b4 {
+  width: 1050px;
+  height: 350px;
+  background: url("../images/v812_1077.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.cvet-b3 {
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 760px;
+  overflow: hidden;
+}
+.foto-b3 {
+  width: 350px;
+  height: 350px;
+  background: url("../images/photo44444.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1085 {
+  width: 200px;
+  height: 42px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1086 {
+  width: 148px;
+  height: 42px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.cvet-b2 {
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 380px;
+  overflow: hidden;
+}
+.foto-b2 {
+  width: 350px;
+  height: 350px;
+  background: url("../images/2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1090 {
+  width: 202px;
+  height: 84px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 241px;
+  left: 25px;
+  overflow: hidden;
+}
+.v812_1091 {
+  width: 202px;
+  height: 42px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1092 {
+  width: 142px;
+  height: 42px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1093 {
+  width: 174px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.cvet-b1 {
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.foto-b1 {
+  width: 350px;
+  height: 350px;
+  background: url("../images/11111.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.cvet-fona {
+  width: 148px;
+  height: 42px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 82%;
+  left: 10%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.verx-btext {
+  width: 210px;
+  height: 42px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.text-tovari {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v812_1100 {
+  width: 570px;
+  height: 220px;
+  opacity: 1;
+  position: absolute;
+  top: 1501px;
+  left: 35%;
+  overflow: hidden;
+}
+.v812_1101 {
+  width: 260px;
+  height: 55px;
+  opacity: 1;
+  position: absolute;
+  top: 165px;
+  left: 295px;
+  overflow: hidden;
+}
+.v812_1102 {
+  width: 255px;
+  height: 50px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1103 {
+  width: 172px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 17px;
+  left: 43px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1104 {
+  width: 260px;
+  height: 55px;
+  opacity: 1;
+  position: absolute;
+  top: 165px;
+  left: 15px;
+  overflow: hidden;
+}
+.v812_1105 {
+  width: 260px;
+  height: 50px;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  opacity: 0.75;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v812_1106 {
+  width: 260px;
+  height: 50px;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v812_1107 {
+  width: 150px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 17px;
+  left: 54px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1108 {
+  width: 570px;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1109 {
+  width: 350px;
+  position: absolute;
+  top: 0px;
+  left: 110px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.populiarn {
+  width: 1150px;
+  height: 457px;
+  background: rgba(255,255,255,1);  opacity: 1;
+  position: absolute;
+  top: 951px;
+  left: 20%;
+  overflow: hidden;
+  border: 1px solid rgba(239,239,239,1);
+}
+.v812_1111 {
+  width: 358px;
+  height: 410px;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  }
+.v812_1113 {
+  width: 140px;
+  height: 50px;
+  opacity: 1;
+  top: 349px;
+  left: 189px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1120 {
+  width: 150px;
+  height: 50px;
+  opacity: 1;
+  top: 349px;
+  left: 29px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1123 {
+  width: 88px;
+  height: 70px;
+  opacity: 1;
+  top: 259px;
+  left: 265px;
+  overflow: hidden;
+  border: 1px solid rgba(239,239,239,1);
+  position: absolute;
+}
+.v812_1126 {
+  width: 87px;
+  height: 70px;
+  border: 1px solid rgba(239,239,239,1);  opacity: 1;
+  top: 259px;
+  left: 178px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1127 {
+  width: 87px;
+  height: 35px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  top: 35px;
+  left: 0px;
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1128 {
+  width: 87px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 900;
+  position: absolute;
+}
+.v812_1129 {
+  width: 87px;
+  height: 70px;
+  border: 1px solid rgba(239,239,239,1);
+  opacity: 1;
+  top: 259px;
+  left: 91px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1132 {
+  width: 87px;
+  height: 70px;
+  opacity: 1;
+  top: 259px;
+  left: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(239,239,239,1);
+  position: absolute;
+}
+.v812_1135 {
+  width: 210px;
+  height: 140px;
+  background: url("../images/orig.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  top: 29px;
+  left: 74px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1136 {
+  width: 358px;
+  top: 200px;
+  left: 0px;
+  opacity: 1;
+  text-align: center;
+  font-weight: 900;
+  position: absolute;
+}
+.v812_1137 {
+  width: 24px;
+  height: 60px;
+  opacity: 1;
+  top: 21px;
+  left: 309px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1138 {
+  width: 24px;
+  height: 24px;
+  background: url("../images/star.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  top: 36px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+}
+.v812_1139 {
+  width: 24px;
+  height: 24px;
+  background: url("../images/compare.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.name {
+  color: #fff;
+}
+.v812_1144 {
+  width: 358px;
+  height: 410px;
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 396px;
+  overflow: hidden;
+}
+.v812_1167 {
+  width: 70px;
+  color: url("../images/v812_1167.png");
+  position: absolute;
+  top: 17px;
+  left: 9px;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1168 {
+  width: 220px;
+  height: 145px;
+  background: url("../images/photo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 31px;
+  left: 69px;
+  overflow: hidden;
+}
+.v812_1169 {
+  width: 358px;
+  color: url("../images/v812_1169.png");
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1170 {
+  width: 24px;
+  height: 60px;
+  background: url("../images/v812_1170.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 309px;
+  overflow: hidden;
+}
+.v812_1171 {
+  width: 24px;
+  height: 24px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1172 {
+  width: 24px;
+  height: 22px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.name {
+  color: #fff;
+}
+.v812_1177 {
+  width: 358px;
+  height: 410px;
+  background: url("../images/v812_1177.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 16px;
+  overflow: hidden;
+}
+.v812_1201 {
+  width: 200px;
+  height: 141px;
+  background: url("../images/orig (2).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 79px;
+  overflow: hidden;
+}
+.v812_1202 {
+  width: 358px;
+  color: url("../images/v812_1202.png");
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1203 {
+  width: 24px;
+  height: 60px;
+  background: url("../images/v812_1203.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 309px;
+  overflow: hidden;
+}
+.v812_1204 {
+  width: 24px;
+  height: 24px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1205 {
+  width: 24px;
+  height: 22px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.name {
+  color: #fff;
+}
+.v812_1210 {
+  width: 100%;
+  height: 40px;
+  background: url("../images/v812_1210.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 0px;
+  overflow: hidden;
+}
+.buttonright {
+  width: 40px;
+  height: 40px;
+  background: url("../images/right.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  left: 100%;
+  margin-left: -40px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+}
+.buttonleft {
+  width: 40px;
+  height: 40px;
+  background: url("../images/left.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  left: 0px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+}
+
+.gallery {
+  width: 1150px;
+  height: 457px;
+  overflow: hidden;
+}
+.gallery ul {
+  height: 457px;
+  width: 2388px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+  /* удаляем пустое пространство между элементами li, у которых установлен inline-block */
+  /* http://davidwalsh.name/remove-whitespace-inline-block */
+  font-size: 100%;
+}
+.gallery li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.v812_1217 {
+  width: 350px;
+  background: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 40%;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1218 {
+  width: 100%;
+  height: 130px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 725px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1220 {
+  width: 200px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 70%;
+  overflow: hidden;
+}
+.v812_1221 {
+  width: 98px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 48px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v812_1222 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/003-commerce-and-shopping.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  overflow: hidden;
+}
+.v812_1236 {
+  width: 200px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 59%;
+  overflow: hidden;
+}
+.v812_1237 {
+  width: 122px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 51px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v812_1238 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/002-product.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1241 {
+  width: 200px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 48%;
+  overflow: hidden;
+}
+.v812_1242 {
+  width: 142px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 51px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v812_1243 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/004-placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1248 {
+  width: 200px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 37%;
+  overflow: hidden;
+}
+.v812_1249 {
+  width: 133px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 51px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v812_1250 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/001-time.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1254 {
+  width: 200px;
+  height: 40px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 26%;
+  overflow: hidden;
+}
+.v812_1255 {
+  width: 113px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 51px;
+  font-family: Ubuntu;
+  font-weight: Regular; 
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v812_1256 {
+  width: 32px;
+  height: 32px;
+  background: url("../images/005-list.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1265 {
+  width: 100%;
+  height: 650px;
+  background: url("../images/banner.png") center /cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:auto 650px;
+  opacity: 1;
+  position: absolute;
+  top: 75px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1274 {
+  width: 100%;
+  height: 75px;
+  background: url("../images/v812_1275.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1324 {
+  width: 100%;
+  height: 1px;
+  background: rgba(239,239,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 74px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1275 {
+  width: 100%;
+  height: 75px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 80.5%;
+  overflow: hidden;
+}
+.v812_1276 {
+  width: 315px;
+  height: 74px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1277 {
+  width: 1px;
+  height: 75px;
+  background: rgba(239,239,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  overflow: hidden;
+}
+.v812_1278 {
+  width: 1px;
+  height: 75px;
+  background: rgba(239,239,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 225px;
+  overflow: hidden;
+}
+.v812_1279 {
+  width: 1px;
+  height: 75px;
+  background: rgba(239,239,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  overflow: hidden;
+}
+.v812_1280 {
+  width: 1px;
+  height: 75px;
+  background: rgba(239,239,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 75px;
+  overflow: hidden;
+}
+.v812_1281 {
+  width: 1px;
+  height: 75px;
+  background: rgba(239,239,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v812_1287 {
+  width: 19px;
+  height: 20px;
+  background: url("../images/search (1).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1288 {
+  width: 19px;
+  height: 20px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.v812_1293 {
+  width: 4px;
+  height: 4px;
+  background: url("../images/v812_1293.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  overflow: hidden;
+}
+.v812_1294 {
+  width: 4px;
+  height: 4px;
+  background: url("../images/v812_1294.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1295 {
+  width: 4px;
+  height: 4px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.v812_1296 {
+  width: 4px;
+  height: 4px;
+  background: url("../images/v812_1296.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  overflow: hidden;
+}
+.v812_1297 {
+  width: 4px;
+  height: 4px;
+  background: url("../images/v812_1297.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v812_1298 {
+  width: 4px;
+  height: 4px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.name {
+  color: #fff;
+}
+/*......ИКОНКИ МЕНЮ.....*/
+.container-image{
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  width: 385px;
+  height: 75px;
+  left: 100%;
+  top: 0px;
+  margin-left: -385px;
+}
+.star {
+  width: 20px;
+  height: 20px;
+  background: url("../images/star.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 28px;
+  overflow: hidden;
+}
+.grafic {
+  width: 19px;
+  height: 19px;
+  background: url("../images/compare.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 103px;
+  overflow: hidden;
+}
+.korzina {
+  width: 20px;
+  height: 20px;
+  background: url("../images/shopping-cart.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 178px;
+  overflow: hidden;
+}
+.lkabinet {
+  width: 20px;
+  height: 20px;
+  background: url("../images/user (1).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 328px;
+  overflow: hidden;
+}
+.lupa {
+  width: 20px;
+  height: 20px;
+  background: url("../images/search (1).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 253px;
+  overflow: hidden;
+}
+.v812_1305 {
+  width: 20px;
+  height: 19px;
+  background: url("../images/star.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.v812_1306 {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 190px;
+  overflow: hidden;
+}
+.v812_1307 {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(rgba(142,233,1,1), rgba(79,156,44,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1308 {
+  width: 20px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1309 {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 114px;
+  overflow: hidden;
+}
+.v812_1310 {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1311 {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v812_1312 {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 39px;
+  overflow: hidden;
+}
+.v812_1313 {
+  width: 20px;
+  height: 20px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.v812_1314 {
+  width: 20px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+/*....МЕНЮ САЙТА.....*/
+header{  
+  height: 75px;
+}
+ul.menu {
+  width: 600px;
+  opacity: 1;
+  position: absolute;
+  left: 50%;
+  overflow: hidden;
+  margin-left: -300px;  
+}
+ul.menu li {
+  color: rgba(0,0,0,1);
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-size: 100%;
+  opacity: 1;
+  text-align: left;
+  display:inline-block;
+  line-height: 65px;
+  height: 75px;
+}
+ul.menu a{
+  display: block; /* ссылка растягивается на весь пункт li */
+  padding: 5px 15px; /* задаем внутренние отступы */
+  color: rgba(0,0,0,1);
+  text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+}
+ul.menu a:hover{
+  background: rgba(81,86,104,1);
+  color: rgba(142,231,1,1);  
+}
+ul.menu ul {
+  display: none;
+	position: absolute;
+	top: 100%;
+}
+ul.menu li:hover > ul {
+	display:inherit;
+}
+			
+ul.menu ul li {
+  min-width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+.logo {
+  width: 151px;
+  height: 26px;
+  background: url("../images/v812_1321.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 135px;
+  overflow: hidden;
+}
+.c24 {
+  width: 26px;
+  color: green;
+  position: absolute;
+  top: 0px;
+  left: 125px;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.nazv {
+  
+  color: rgba(0,0,0,1);
+  position: absolute;
+width: 120px;
+height: 26px;
+left: calc(50% - 120px/2 - 15.5px);
+top: calc(50% - 26px/2);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 26px;
+}
+footer_span_h {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Ubuntu;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+  font-weight: 900;
+}
+.container_logo{
+  max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.span_h1{
+  top: 25px;
+  left: 36%;
+}
+.span_h2{
+  top: 25px;
+  left: 45%;
+}
+.span_h3{
+  top: 25px;
+  left: 55%;
+}
+.span_h4{
+  top: 25px;
+  left: 65%;
+}
+
+footer_span {
+  color: rgba(117,117,138,1);
+  position: absolute;
+  font-family: Ubuntu;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.footer_span.a{
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+.footer_span.a:hover{
+  text-decoration: underline;
+}
+
+.span_1_2 {
+  top: 70px;
+  left: 20%;
+}
+.span_1_3 {
+  top: 85px;
+  left: 20%;
+}
+.span_1_4 {
+  top: 120px;
+  left: 20%;
+}
+.span_2_2 {
+  top: 55px;
+  left: 36%;
+}
+.span_2_2 a {
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+.span_2_2 a:hover{
+  text-decoration: underline;
+}
+.span_2_3 {
+  top: 80px;
+  left: 36%;
+}
+.span_2_3 a {
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+
+.span_2_3 a:hover{
+  text-decoration: underline;
+}
+.span_2_4 {
+  top: 105px;
+  left: 36%;
+}
+.span_2_4 a {
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+.span_2_4 a:hover{
+  text-decoration: underline;
+}
+
+.span_2_5 {
+  width: 60px;
+  top: 130px;
+  left: 36%;
+}
+.span_2_5 a {
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+
+.span_2_5 a:hover{
+  text-decoration: underline;
+}
+.span_3_2 {
+  top: 55px;
+  left: 45%;
+}
+.span_3_2 a {
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+.span_3_2 a:hover{
+  text-decoration: underline;
+}
+.span_3_3 {
+  top: 80px;
+  left: 45%;
+}
+.span_3_4 {
+  top: 105px;
+  left: 45%;
+}
+.span_4_2 {
+  top: 55px;
+  left: 55%;
+}
+.span_4_3 {
+  top: 80px;
+  left: 55%;
+}
+.span_4_4 {
+  top: 105px;
+  left: 55%;
+}
+.span_4_5 {
+  top: 130px;
+  left: 55%;
+}
+.span_5_2 {
+  top: 55px;
+  left: 65%;
+}
+.span_5_3 {
+  top: 80px;
+  left: 65%;
+}
+.span_5_4 {
+  top: 105px;
+  left: 65%;
+}
+.span_5_5 {
+  top: 130px;
+  left: 65%;
+}
+.span_2_2 a {
+  color: rgba(117,117,138,1);
+  display: block;
+  text-decoration: none;
+}
+
+.span_2_2 a:hover{
+  text-decoration: underline;
+}
+
+
+button.email {
+  width: 100%;
+  height: 100%;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+	font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 100%;
+  opacity: 1;
+  text-align: center;
+  color: white;
+}
+button.email:hover {
+  font-size: 120%;
+}
+button.biggreen {
+  width: 98%;
+  height: 92%;
+  border-radius: 100px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+	box-shadow: 3px 5px rgba(142,233,2,0.5);
+	font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 100%;
+  opacity: 1;
+  text-align: center;
+  color: white;
+}
+
+button.bigwhite {
+  width: 98%;
+  height: 92%;
+  border-radius: 100px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	background: rgba(255,255,255,1);
+	box-shadow: 3px 5px rgba(0,0,0,0.15);
+	font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 100%;
+  opacity: 1;
+  text-align: center;
+  color: black;
+}
+
+button.biggreen:hover {
+  font-size: 120%;
+  background: rgba(255,255,255,1);
+	box-shadow: 3px 5px rgba(0,0,0,0.15);
+	color: black;
+}
+
+button.bigwhite:hover {
+  font-size: 120%;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+	box-shadow: 3px 5px rgba(142,233,2,0.5);
+  color: white;
+}
+
+button.bascket {
+  width: 98%;
+  height: 92%;
+  border-radius: 100px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 1s ease;
+	background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+	box-shadow: 3px 5px rgba(142,233,2,0.5);
+	font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 100%;
+  opacity: 1;
+  text-align: center;
+  color: white;
+  overflow:hidden;
+}
+
+button.bascket:before {
+	font-family: FontAwesome;
+	content:"\f07a";
+	position: absolute;
+	top: 13px;
+	left: -30px;
+}
+
+button.bascket:hover:before {
+	left: 10px;
+	font-size: 120%;
+}
+
+img.scale {
+  transition: 1s;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+img.scale:hover{
+  transform: scale(1.2);
+}
+
+button.top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 100%;
+  background: linear-gradient(rgba(142,233,2,1), rgba(79,156,44,1));
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 15px;
+}
